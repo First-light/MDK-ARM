@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"plantguardian_demo\startup_stm32f103xb.o"
+"plantguardian_demo\ds18b20.o"
+"plantguardian_demo\delay_us.o"
+"plantguardian_demo\main.o"
+"plantguardian_demo\stm32f1xx_it.o"
+"plantguardian_demo\stm32f1xx_hal_msp.o"
+"plantguardian_demo\stm32f1xx_hal_gpio_ex.o"
+"plantguardian_demo\stm32f1xx_hal_tim.o"
+"plantguardian_demo\stm32f1xx_hal_tim_ex.o"
+"plantguardian_demo\stm32f1xx_hal_uart.o"
+"plantguardian_demo\stm32f1xx_hal.o"
+"plantguardian_demo\stm32f1xx_hal_rcc.o"
+"plantguardian_demo\stm32f1xx_hal_rcc_ex.o"
+"plantguardian_demo\stm32f1xx_hal_gpio.o"
+"plantguardian_demo\stm32f1xx_hal_dma.o"
+"plantguardian_demo\stm32f1xx_hal_cortex.o"
+"plantguardian_demo\stm32f1xx_hal_pwr.o"
+"plantguardian_demo\stm32f1xx_hal_flash.o"
+"plantguardian_demo\stm32f1xx_hal_flash_ex.o"
+"plantguardian_demo\stm32f1xx_hal_exti.o"
+"plantguardian_demo\system_stm32f1xx.o"
+--strict --scatter "PlantGuardian_Demo\PlantGuardian_Demo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PlantGuardian_Demo.map" -o PlantGuardian_Demo\PlantGuardian_Demo.axf
