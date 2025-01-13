@@ -394,11 +394,6 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
-              <FileName>DS18B20.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\DS18B20.c</FilePath>
-            </File>
-            <File>
               <FileName>delay_us.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\delay_us.c</FilePath>

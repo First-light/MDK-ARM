@@ -1,6 +1,5 @@
 --cpu Cortex-M3
 "plantguardian_demo\startup_stm32f103xb.o"
-"plantguardian_demo\ds18b20.o"
 "plantguardian_demo\delay_us.o"
 "plantguardian_demo\main.o"
 "plantguardian_demo\stm32f1xx_it.o"
